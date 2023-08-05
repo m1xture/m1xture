@@ -1,7 +1,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://37.media.tumblr.com/a4cfb0cf36b9936bb988cc0751bbb2f9/tumblr_n4xdautoDY1tax9aio1_500.gif">
 <p>☕ I'm currently learning <b>JavaScript</b></p>
-<p>🎸 Fun fact: <b>I always listen to music while programming</b></p>
+<p>🎸 Fun fact: <b>I always listen to music while coding</b></p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

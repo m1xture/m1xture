@@ -1,4 +1,4 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=m1xture&label=Profile%20views&color=0e75b6&style=flat" alt="m1xture" /> </p>
+
 <img align="right" alt="Coding" width="400" src="https://37.media.tumblr.com/a4cfb0cf36b9936bb988cc0751bbb2f9/tumblr_n4xdautoDY1tax9aio1_500.gif">
 <p>☕ I'm currently learning <b>JavaScript</b></p>
 <p>🎸 Fun fact: <b>I always listen to music while programming</b></p>
@@ -9,14 +9,17 @@
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<div style="display: inline_block"><br>
+<div>
   <img height="30px" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
   <img height="30px" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
   <img height="30px" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
   <img height="30px" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
   <img height="30px" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 </div>
-
+<div>
+  <img height="30px" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+  <img height="30px" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /></div>
+<div>
 <p ><img height="170em" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&locale=en&layout=compact&theme=synthwave" alt="m1xture" /></p>
 
-<p ><img  height="170em" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=synthwave" /></p>
+<p ><img  height="170em" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=synthwave" /></p></div>

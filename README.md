@@ -20,6 +20,10 @@
   <img height="30px" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
   <img height="30px" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /></div>
 <div>
-<p ><img height="170em" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&locale=en&layout=compact&theme=synthwave" alt="m1xture" /></p>
+<p ><img height="170em"  align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&locale=en&layout=compact&theme=synthwave" alt="m1xture" /></p>
 
-<p ><img  height="170em" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=synthwave" /></p></div>
+<p ><img  height="170em" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=synthwave" /></p>
+<div align="left">
+   <img alt="visitor badge" width="777em" src="https://github-readme-activity-graph.vercel.app/graph?username=m1xture&bg_color=2b213a&color=e5289e&line=eb008b&point=c4c9cf&area=true&hide_border=false&border_radius=15px&hide_title=true">
+</div>
+</div>

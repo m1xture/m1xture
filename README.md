@@ -55,7 +55,11 @@
   <img height="180px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=fffffe&bg_color=232946&text_color=b8c1ec&border_color=b8c1ec&border_radius=13" alt="m1xture" /></div>
   <br>
    <img alt="visitor badge" align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=m1xture&bg_color=232946&color=b8c1ec&line=b8c1ec&point=fffffe&radius=13&title_color=fffffe&hide_border=true">
-  
+  <br><br>
+  <div align-"center">
+    <img alt="1st repo" height="150px" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=Simple-Chocolate&bg_color=232946&title_color=fffffe&text_color=b8c1ec&icon_color=fffffe&border_radius=13&hide_border=true">
+    <img alt="1st repo" height="150px" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=command&bg_color=232946&title_color=fffffe&text_color=b8c1ec&icon_color=fffffe&border_radius=13&hide_border=true">
+</div>
 </div>
 
 </center>

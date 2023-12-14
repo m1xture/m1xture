@@ -51,8 +51,8 @@
 <div align="center">
   <h2 align="center">Github stats</h2>
   <div>
-  <img  height="190px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=fffffe&bg_color=232946&text_color=b8c1ec&border_color=b8c1ec&border_radius=13&hide_border=true" />
-  <img height="190px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=fffffe&bg_color=232946&text_color=b8c1ec&border_color=b8c1ec&border_radius=13" alt="m1xture" /></div>
+  <img  height="180px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=fffffe&bg_color=232946&text_color=b8c1ec&border_color=b8c1ec&border_radius=13&hide_border=true" />
+  <img height="180px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=fffffe&bg_color=232946&text_color=b8c1ec&border_color=b8c1ec&border_radius=13" alt="m1xture" /></div>
   <br>
    <img alt="visitor badge" align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=m1xture&bg_color=232946&color=b8c1ec&line=b8c1ec&point=fffffe&radius=13&title_color=fffffe&hide_border=true">
   

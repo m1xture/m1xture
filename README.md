@@ -3,7 +3,7 @@
   <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=FFFFFE&background=23294600&center=true&vCenter=true&repeat=false&random=false&width=435&lines=Hello%2C+I+am+m1xture;An+amateur+front-end+developer" alt="Typing SVG" /></a></h1>
   <div align="center">
   <a href="https://discordapp.com/users/1137391988417769583/" target="_blank">
-    <img src="https://lanyard.kyrie25.me/api/1137391988417769583?bg=232946&borderRadius=13px&gradient=fffffe&waveSpotifyColor=121629&idleMessage=doing%20%something%20%important&waveColor=8B8BFA&text_color=000"  />
+    <img src="https://lanyard.kyrie25.me/api/1137391988417769583?bg=232946&borderRadius=13px&gradient=fffffe&waveSpotifyColor=121629&idleMessage=doing%20%something%20%important&waveColor=121629&text_color=000"  />
   </a>
 </div>
 

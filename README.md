@@ -3,7 +3,7 @@
   <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=FFFFFE&background=23294600&center=true&vCenter=true&repeat=false&random=false&width=435&lines=Hello%2C+I+am+m1xture;An+amateur+front-end+developer" alt="Typing SVG" /></a></h1>
   <div align="center">
   <a href="https://discordapp.com/users/1137391988417769583/" target="_blank">
-    <img src="https://lanyard.kyrie25.me/api/1137391988417769583?bg=232946&borderRadius=13px&gradient=fffffe&waveSpotifyColor=121629&idleMessage=doing%20%something%20%important&waveColor=121629&text_color=000"  />
+    <img src="https://lanyard.kyrie25.me/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=121629&idleMessage=doing%20%something%20%important&waveColor=2F3150&text_color="  />
   </a>
 </div>
 
@@ -51,17 +51,17 @@
 <div align="center">
   <h2 align="center">Github stats</h2>
   <div>
-  <img  height="180px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=fffffe&bg_color=232946&text_color=b8c1ec&border_color=b8c1ec&border_radius=13&hide_border=true" />
-  <img height="180px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=fffffe&bg_color=232946&text_color=b8c1ec&border_color=b8c1ec&border_radius=13" alt="m1xture" /></div>
+  <img  height="180px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13&hide_border=true" />
+  <img height="180px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13" alt="m1xture" /></div>
   <br>
-   <img alt="visitor badge" align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=m1xture&bg_color=232946&color=b8c1ec&line=b8c1ec&point=fffffe&radius=13&title_color=fffffe&hide_border=true">
+   <img alt="visitor badge" align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=m1xture&bg_color=1F2140&color=85AAF2&line=CEC9E7&point=fffffe&radius=13&title_color=e4eFfd&hide_border=true">
   <br><br>
   <div align-"center">
     <a href="https://github.com/m1xture/Simple-Chocolate" target="_blank">
-    <img alt="1st repo" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=Simple-Chocolate&bg_color=232946&title_color=fffffe&text_color=b8c1ec&icon_color=fffffe&border_radius=13&hide_border=true">
+    <img alt="1st repo" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=Simple-Chocolate&bg_color=1F2140&title_color=e4eFfd&text_color=85AAF2&icon_color=fffffe&border_radius=13&hide_border=true">
       </a>
     <a href="https://github.com/m1xture/command" target="_blank">
-    <img alt="1st repo" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=command&bg_color=232946&title_color=fffffe&text_color=b8c1ec&icon_color=fffffe&border_radius=13&hide_border=true">
+    <img alt="1st repo" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=command&bg_color=1F2140&title_color=e4eFfd&text_color=85AAF2&icon_color=fffffe&border_radius=13&hide_border=true">
     </a>
 </div>
 </div>

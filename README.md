@@ -15,7 +15,7 @@
 
   <div align="left" >
     <br><br>
-    <p>Started learning programming last year</p>
+    <p>Started learning programming 2 years ago</p>
     <p>Planning to do some interesting projects soon</p>
     <p>Often listen to music while coding</p>
     <p>Feel free to contact me in discord, 

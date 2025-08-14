@@ -3,7 +3,7 @@
   <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=FFFFFE&background=23294600&center=true&vCenter=true&repeat=false&random=false&width=435&lines=Hello%2C+I+am+m1xture;An+amateur+front-end+developer" alt="Typing SVG" /></a></h1>
   <div align="center">
   <a href="https://discordapp.com/users/1137391988417769583/" target="_blank">
-    <img src="https://lanyard.kyrie25.me/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=doing%20%something%20%important&waveColor=0A1024&text_color="  />
+    <img src="https://lanyard.cnrad.dev/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=doing%20something%20...%20probably&waveColor=0A1024"  />
   </a>
 </div>
 
@@ -31,15 +31,24 @@
   <img alt="2gif" src="https://giffiles.alphacoders.com/191/191898.gif" align="left" width="400px">
    <h3 align="right">My stack:</h3>
   <div align="right">
-    <img alt"html ico" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-    <img alt="css 3 ico" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-    <img alt="bootstrap ico" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+    <img alt"html ico" src="https://img.shields.io/badge/HTML-e54d26?style=for-the-badge&logo=html5&labelColor=%231e191b">
+    <img alt="css 3 ico" src="https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css&logoColor=264de4&labelColor=%2318002f">
+    <img alt="sass ico" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&labelColor=%23222">
+    <img alt="bootstrap ico" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&labelColor=%23222">
     <br>
-    <img alt="js ico" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-    <img alt="sass ico" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-    <img alt="figma ico" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=%23F05032&labelColor=%23222">
+    <img alt="js ico" src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&labelColor=%23222">
+      <img alt="typescript ico" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=%233178C6&labelColor=%23222">
+    <img alt="react icon" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=%2361DAFB&labelColor=%23222">
+  <br>
+    <img alt="Static Badge" src="https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=React%20Router&logoColor=%23CA4245&labelColor=%23222">
+    <img alt="redux icon" src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=%23764ABC&labelColor=%23222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=%23eee&labelColor=%23222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=%23007FFF&labelColor=%23222">
     <br>
-    <img alt="vscode icon" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+    <img alt="expressjs icon" src="https://img.shields.io/badge/Express.js-555?style=for-the-badge&logo=express&logoColor=%23eee&labelColor=%23222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=%2347A248&labelColor=%23222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord.js&logoColor=%235865F2&labelColor=%23222">
   </div>
   </div>
 </div>

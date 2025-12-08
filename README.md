@@ -57,18 +57,19 @@
 <div align="center">
   <h2 align="center">Github stats</h2>
   <div>
-  <img  height="180px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13&hide_border=true" />
-  <img height="180px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13" alt="m1xture" /></div>
+  <!-- <img  height="180px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13&hide_border=true" /> -->
+  <!-- <img height="180px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13" alt="m1xture" /> -->
+  </div>
   <br>
    <img alt="visitor badge" align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=m1xture&bg_color=1F2140&color=85AAF2&line=CEC9E7&point=fffffe&radius=13&title_color=e4eFfd&hide_border=true">
   <br><br>
   <div align-"center">
-    <a href="https://github.com/m1xture/Simple-Chocolate" target="_blank">
+    <!-- <a href="https://github.com/m1xture/Simple-Chocolate" target="_blank">
     <img alt="1st repo" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=Simple-Chocolate&bg_color=1F2140&title_color=e4eFfd&text_color=85AAF2&icon_color=fffffe&border_radius=13&hide_border=true">
       </a>
     <a href="https://github.com/m1xture/command" target="_blank">
     <img alt="1st repo" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=m1xture&repo=command&bg_color=1F2140&title_color=e4eFfd&text_color=85AAF2&icon_color=fffffe&border_radius=13&hide_border=true">
-    </a>
+    </a> -->
 </div>
 </div>
 

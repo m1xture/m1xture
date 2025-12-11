@@ -10,8 +10,6 @@
 <br>
 
 <div align="center">
-  
-  <img src="https://media.tenor.com/rA6ler4OflUAAAAC/zankyou-no.gif" alt="gif animation" align="right">
 
   <div align="left" >
     <br><br>
@@ -22,15 +20,12 @@
       even <br> if you are not front-end dev)</p>
     </div>
 </div>
-    <br><br><br>
-<div align="right">
-  <br><br><br>
-  
- 
-  
-  <img alt="2gif" src="https://giffiles.alphacoders.com/191/191898.gif" align="left" width="400px">
-   <h3 align="right">My stack:</h3>
-  <div align="right">
+    <br><br>
+<div align="left">
+  <br><br>
+
+   <h3 align="left">My stack:</h3>
+  <div align="left">
     <img alt"html ico" src="https://img.shields.io/badge/HTML-e54d26?style=for-the-badge&logo=html5&labelColor=%231e191b">
     <img alt="css 3 ico" src="https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css&logoColor=264de4&labelColor=%2318002f">
     <img alt="sass ico" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&labelColor=%23222">

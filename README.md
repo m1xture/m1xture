@@ -14,7 +14,7 @@
   <div align="left" >
     <br><br>
     <p>Started learning programming 3 years ago</p>
-    <p>Currently learning: <b>Astro</b> </p>
+    <p>Currently learning: <b>Java Basics</b> </p>
     <p>Often listen to music while coding</p>
     <p>Feel free to contact me in discord, 
       even <br> if you are not front-end dev)</p>
@@ -39,6 +39,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=%23eee&labelColor=%23222">
     <img alt="Static Badge" src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=%23007FFF&labelColor=%23222">
     <img alt="expressjs icon" src="https://img.shields.io/badge/Express.js-555?style=for-the-badge&logo=express&logoColor=%23eee&labelColor=%23222">
+    <img alt="nestjs icon" src="https://img.shields.io/badge/Nest.js-E0234E?style=for-the-badge&logo=nestjs&logoColor=%23E0234E&labelColor=%23222" />
     <img alt="Static Badge" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=%2347A248&labelColor=%23222">
     <img alt="Static Badge" src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord.js&logoColor=%235865F2&labelColor=%23222">
   </div>
@@ -52,8 +53,8 @@
 <div align="center">
   <h2 align="center">Github stats</h2>
   <div>
-  <img  height="180px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13&hide_border=true" /> 
-  <img height="180px"  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13" alt="m1xture" />
+  <img  style="height: 200px" align="center" src="https://github-readme-stats.vercel.app/api?username=m1xture&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13&hide_border=true" /> 
+  <img height="500px"  style="height:200px; display:block; margin:auto;" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=m1xture&show_icons=true&hide_border=true&locale=en&layout=compact&theme=transparent&title_color=e4eFfd&bg_color=1F2140&text_color=85AAF2&border_color=b8c1ec&border_radius=13&card_width=350" alt="m1xture" />
   </div>
   <br>
    <img alt="visitor badge" align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=m1xture&bg_color=1F2140&color=85AAF2&line=CEC9E7&point=fffffe&radius=13&title_color=e4eFfd&hide_border=true">

@@ -1,0 +1,25 @@
+---
+import Container from "../shared/Container/Container.astro";
+import Translator from "./Translator/Translator.astro";
+const {
+  t: { header },
+} = Astro.locals;
+const ids = ["#about", "#projects", "#contacts"];
+---
+
+<header class="py-6 absolute top-0 right-0 left-0 bg-black/10 z-10">
+  <Container class="flex items-center justify-between lg:px-32">
+    <nav>
+      <ul class="flex gap-2 sm:gap-5 lg:gap-8">
+        {
+          header.nav.map((link: string, i: number) => (
+            <li>
+              <a href={ids[i]} class="uppercase text-sm sm:text-base">{link}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <Translator />
+  </Container>
+</header>

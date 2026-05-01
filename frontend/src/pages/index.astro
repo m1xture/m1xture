@@ -1,9 +1,12 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+const acceptLanguage = Astro.request.headers.get('accept-language') ?? "";
 
+const preferred = acceptLanguage
+  .split(",")
+  .map((part: string) => part.split(";")[0].trim().slice(0, 2).toLowerCase());
+
+const supported = ["en", "ua"];
+const lang = preferred.find(l => supported.includes(l)) ?? "en";
+
+return Astro.redirect(`/${lang}/`, 302);
 ---
-
-<Layout>
-	<Welcome />
-</Layout>

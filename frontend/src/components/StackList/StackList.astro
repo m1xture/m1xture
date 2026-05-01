@@ -1,0 +1,13 @@
+---
+import skills from "../../i18n/skills";
+---
+
+<ul class="flex flex-wrap gap-x-2 gap-y-2.5">
+  {
+    skills.map((skill: string) => (
+      <li class="py-1 px-2 outline-2 outline-background/40 bg-background/10">
+        <p>{skill}</p>
+      </li>
+    ))
+  }
+</ul>

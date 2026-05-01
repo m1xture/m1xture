@@ -1,0 +1,41 @@
+---
+import { Check } from "@lucide/astro";
+
+const { lang, all } = Astro.locals;
+---
+
+<div class="relative">
+  <button type="button" class="text-sm sm:text-base cursor-pointer relative after:absolute after:-inset-6 lg:after:-inset-4" data-lang-btn>{lang.toUpperCase()}</button>
+  <ul
+    class="hidden absolute top-[135%] right-0 z-20 bg-popover/80 flex-col items-end justify-end px-4 py-2"
+    data-lang-menu
+  >
+    {
+      all.map((l: string) => (
+        <li class="mb-2 last:mb-0 flex items-center justify-end">
+          {lang === l.toLowerCase() && <Check class="mr-1" size={18} />}
+          <a
+            href={`/${l.toLowerCase()}/`}
+            class="gap-2  text-sm sm:text-base uppercase inline"
+          >
+            {l}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>
+
+<script is:inline>
+  const btn = document.querySelector("[data-lang-btn]");
+  const menu = document.querySelector("[data-lang-menu]");
+  const toggleMenu = () => menu.classList.toggle("hidden");
+
+  btn.addEventListener("click", toggleMenu);
+
+  document.addEventListener("click", (e) => {
+    if (!document.getElementById("lang-switcher").contains(e.target)) {
+      toggleMenu();
+    }
+  });
+</script>

@@ -11,4 +11,5 @@ export default [
   "JUnit",
   "MySQL",
   "MongoDB",
+  "RabbitMQ",
 ];

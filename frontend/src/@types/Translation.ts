@@ -1,3 +1,9 @@
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+}
+
 export interface Translation {
   header: {
     nav: string[];
@@ -6,4 +12,5 @@ export interface Translation {
     title: string;
     desc: string;
   };
+  projects: Project[];
 }

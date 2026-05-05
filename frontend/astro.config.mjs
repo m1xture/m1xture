@@ -15,6 +15,7 @@ export default defineConfig({
       provider: fontProviders.fontsource(),
       name: "Golos Text",
       cssVariable: "--font-golos",
+      subsets: ["latin", "cyrillic"]
     },
   ],
 });

@@ -1,0 +1,71 @@
+---
+import type { Project } from "../../@types/Translation";
+import type { ProjectDetails } from "../../i18n/projects";
+import { projects } from "../../i18n/projects";
+import Container from "../shared/Container/Container.astro";
+const {
+  t: { projects: projectsInfo },
+} = Astro.locals;
+
+const formatDate = (date: Date): string => {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  return `${year}/${month}`;
+};
+
+const combinedProjects: (Project & ProjectDetails)[] = projects
+  .map((p) => {
+    const elem: ProjectDetails | undefined = projectsInfo.find(
+      ({ id }: Project) => id === p.id,
+    );
+    if (!elem) return undefined;
+    return { ...p, ...elem };
+  })
+  .filter((p): p is Project & ProjectDetails => p !== undefined);
+---
+
+<section class="py-16" id="projects">
+  <Container>
+    <h2 class="text-4xl text-center mb-8">My projects</h2>
+    <ul
+      class="grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center gap-4 xl:max-w-6xl xl:mx-auto"
+    >
+      {
+        combinedProjects.map((project) => (
+          <li class="relative group outline-2 outline-accent flex flex-col py-3 px-4">
+            <div>
+              <p class="opacity-70 text-right text-sm">
+                {Array.isArray(project.date)
+                  ? `${formatDate(project.date[0])} — ${formatDate(project.date[1])}`
+                  : formatDate(project.date)}
+              </p>
+              <h3 class="text-2xl lg:text-3xl text-balance min-h-14 lg:min-h-18">
+                {project.title}
+              </h3>
+              {project.links && (
+                <ul class="mt-auto flex gap-4 flex-wrap">
+                  {Object.entries(project.links).map(([k, v]) => (
+                    <li>
+                      <a class="text-accent text-sm" href={v} target="_blank">
+                        {k.replace(/^./, (char) => char.toUpperCase())}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            <p class="mb-2 text-balance ">{project.description}</p>
+            <ul class="flex flex-wrap gap-2 mt-auto">
+              {project.stack.map((s) => (
+                <li class="py-1 px-2 bg-sidebar-border">
+                  <span>{s}</span>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))
+      }
+    </ul>
+  </Container>
+</section>

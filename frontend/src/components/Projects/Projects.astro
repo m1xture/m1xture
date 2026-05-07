@@ -46,7 +46,14 @@ const combinedProjects: (Project & ProjectDetails)[] = projects
                 <ul class="mt-auto flex gap-4 flex-wrap">
                   {Object.entries(project.links).map(([k, v]) => (
                     <li>
-                      <a class="text-accent text-sm" href={v} target="_blank">
+                      <a
+                        class="text-accent text-sm"
+                        href={v}
+                        target="_blank"
+                        data-umami-event="Project link click"
+                        data-umami-event-project={project.id}
+                        data-umami-event-link-type={k}
+                      >
                         {k.replace(/^./, (char) => char.toUpperCase())}
                       </a>
                     </li>

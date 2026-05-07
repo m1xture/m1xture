@@ -1,21 +1,25 @@
 ---
 import "../styles/global.css";
-const {lang} =Astro.locals;
+const { lang } = Astro.locals;
 import { Font } from "astro:assets";
 ---
 
 <!doctype html>
 <html lang={lang === "ua" ? "uk" : "en"}>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<!-- <link rel="icon" href="/favicon.ico" /> -->
-		<title>m1xture: fullstack developer</title>
-		<Font cssVariable="--font-golos" />
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
+    <title>m1xture: fullstack developer</title>
+    <Font cssVariable="--font-golos" />
+  </head>
+  <body>
+    <slot />
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="71d7ba70-cc5e-42a3-8e26-dce8ef264b50"
+      data-domains="m1xture.xyz,www.m1xture.xyz"></script>
+  </body>
 </html>
-

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://m1xture.xyz/sitemap-index.xml

@@ -5,6 +5,12 @@ export interface Project {
 }
 
 export interface Translation {
+  meta: {
+    title: string;
+    
+    //? meta description should be 120-160 characters
+    description: string;
+  };
   header: {
     nav: string[];
   };

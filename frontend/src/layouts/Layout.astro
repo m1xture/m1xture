@@ -2,6 +2,11 @@
 import "../styles/global.css";
 const { lang } = Astro.locals;
 import { Font } from "astro:assets";
+const {
+  t: { meta },
+} = Astro.locals;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -11,7 +16,9 @@ import { Font } from "astro:assets";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!-- <link rel="icon" href="/favicon.ico" /> -->
-    <title>m1xture: fullstack developer</title>
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="description" content={meta.description} />
+    <title>{meta.title}</title>
     <Font cssVariable="--font-golos" />
   </head>
   <body>

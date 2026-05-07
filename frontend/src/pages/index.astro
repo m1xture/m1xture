@@ -1,12 +1,17 @@
 ---
-const acceptLanguage = Astro.request.headers.get('accept-language') ?? "";
+export const prerender = false;
+const acceptLanguage = Astro.request.headers.get("accept-language") ?? "";
 
-const preferred = acceptLanguage
+let preferred = acceptLanguage
   .split(",")
   .map((part: string) => part.split(";")[0].trim().slice(0, 2).toLowerCase());
 
+if (preferred.includes("ru")) {
+  preferred = preferred.map((l) => (l === "ru" ? "ua" : l));
+}
+
 const supported = ["en", "ua"];
-const lang = preferred.find(l => supported.includes(l)) ?? "en";
+const lang = preferred.find((l) => supported.includes(l)) ?? "en";
 
 return Astro.redirect(`/${lang}/`, 302);
 ---

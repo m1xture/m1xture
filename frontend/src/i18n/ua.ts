@@ -1,6 +1,10 @@
 import type { Translation } from "../@types/Translation";
 
 export default {
+  meta: {
+    title: "m1xture: fullstack розробник",
+    description: "",
+  },
   header: {
     nav: ["Про мене", "Проєкти", "Контакти"],
   },

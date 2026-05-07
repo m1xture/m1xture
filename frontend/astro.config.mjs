@@ -1,13 +1,15 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
-import netlify from "@astrojs/netlify";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
+import netlify from "@astrojs/netlify";
+
+const isProductionEnv = process.env.NETLIFY === "true";
 
 // https://astro.build/config
 export default defineConfig({
-  output: "server",
-  adapter: netlify(),
+  output: "static",
+  adapter: isProductionEnv ? netlify() : undefined,
   site: "https://m1xture.xyz",
 
   vite: {
@@ -19,7 +21,7 @@ export default defineConfig({
       provider: fontProviders.fontsource(),
       name: "Golos Text",
       cssVariable: "--font-golos",
-      subsets: ["latin", "cyrillic"]
+      subsets: ["latin", "cyrillic"],
     },
   ],
 

@@ -1,6 +1,10 @@
 import type { Translation } from "../@types/Translation";
 
 export default {
+  meta: {
+    title: "m1xture: fullstack developer",
+    description: "",
+  },
   header: {
     nav: ["About", "Projects", "Contacts"],
   },

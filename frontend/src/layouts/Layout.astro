@@ -18,6 +18,19 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- <link rel="icon" href="/favicon.ico" /> -->
     <link rel="canonical" href={canonicalURL} />
     <meta name="description" content={meta.description} />
+
+    <meta property="og:title" content={meta.title} />
+    <meta property="og:description" content={meta.description} />
+    <meta property="og:image" content="/favicon.webp" />
+    <meta property="og:url" content="https://m1xture.xyz" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="m1xture" />
+
+    <meta name="twitter:title" content={meta.title} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content={meta.description} />
+    <meta name="twitter:image" content="/favicon.webp" />
+
     <title>{meta.title}</title>
     <Font cssVariable="--font-golos" />
   </head>

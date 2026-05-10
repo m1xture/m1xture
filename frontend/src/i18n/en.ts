@@ -3,7 +3,8 @@ import type { Translation } from "../@types/Translation";
 export default {
   meta: {
     title: "m1xture: fullstack developer",
-    description: "",
+    description:
+      "I'm m1xture, a full-stack developer with commercial experience. I work with Node.js, Java, and modern frontend technologies",
   },
   header: {
     nav: ["About", "Projects", "Contacts"],
@@ -11,6 +12,21 @@ export default {
   hero: {
     title: "Hi, I'm m1xture",
     desc: "A passionate fullstack developer who develops modern websites and reliable backend systems",
+  },
+  about: {
+    title: "About me",
+
+    description: [
+      "I started by learning front-end technologies, then gradually moved on to Node.js and JavaScript backend frameworks. After that, I got into Java, and now I'm honing my skills in Spring",
+    ],
+    info: {
+      startedProgramming: ["Started Programming since", "y.", "m."],
+      programmingLanguages: "Programming languages",
+      commercialExperience: ["Commercial experience", "years"],
+      englishLevel: "English Level",
+      location: ["Location", "Ukraine - EU"],
+      email: "Email",
+    },
   },
   projects: [
     {

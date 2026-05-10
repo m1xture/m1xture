@@ -3,15 +3,10 @@ import type { Project } from "../../@types/Translation";
 import type { ProjectDetails } from "../../i18n/projects";
 import { projects } from "../../i18n/projects";
 import Container from "../shared/Container/Container.astro";
+import formatDate from "../../utils/formatDate";
 const {
   t: { projects: projectsInfo },
 } = Astro.locals;
-
-const formatDate = (date: Date): string => {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  return `${year}/${month}`;
-};
 
 const combinedProjects: (Project & ProjectDetails)[] = projects
   .map((p) => {
@@ -24,7 +19,7 @@ const combinedProjects: (Project & ProjectDetails)[] = projects
   .filter((p): p is Project & ProjectDetails => p !== undefined);
 ---
 
-<section class="py-16" id="projects">
+<section class="py-16 sm:py-24" id="projects">
   <Container>
     <h2 class="text-4xl text-center mb-8">My projects</h2>
     <ul

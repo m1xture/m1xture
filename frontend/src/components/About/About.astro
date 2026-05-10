@@ -1,0 +1,130 @@
+---
+import Container from "../shared/Container/Container.astro";
+import { Image } from "astro:assets";
+import formatDate from "../../utils/formatDate";
+import rosesImg from "../../assets/about-img.jpg";
+import { info } from "../../i18n/info";
+import { Mail, MapPin, Speech, Code, HandCoins, Clock } from "@lucide/astro";
+
+const {
+  t: { about },
+} = Astro.locals;
+
+const start = info.startedProgramming;
+const now = new Date();
+
+let years = now.getFullYear() - start.getFullYear();
+let months = now.getMonth() - start.getMonth();
+
+if (months < 0) {
+  years--;
+  months += 12;
+}
+---
+
+<section id="about" class="bg-card py-16 sm:py-24">
+  <Container class:list="flex justify-center items-center" }>
+    <div class="mr-12 hidden md:block">
+      <Image
+        src={rosesImg}
+        alt="roses"
+        loading="lazy"
+        class="md:max-w-xs xl:max-w-sm"
+      />
+    </div>
+    <div class="max-w-md">
+      <h2 class="text-accent text-3xl xl:text-4xl mb-4">
+        {about.title}
+      </h2>
+      {
+        about.description.map((desc: string) => (
+          <p class="text-base xl:text-lg">{desc}</p>
+        ))
+      }
+      <ul class="flex flex-wrap gap-2 mt-2">
+        <li class="about-card">
+          <div>
+            <h3 class="about-card__title">
+              {about.info.startedProgramming[0]}
+            </h3>
+            <p class="about-card__text">
+              {formatDate(info.startedProgramming)} ({years}{
+                about.info.startedProgramming[1]
+              }
+              {months}{about.info.startedProgramming[2]})
+            </p>
+          </div>
+          <Clock class="about-card__icon" />
+        </li>
+        <li class="about-card">
+          <div>
+            <h3 class="about-card__title">
+              {about.info.commercialExperience[0]}
+            </h3>
+            <p class="about-card__text">
+              {info.commercialExperience}
+              {about.info.commercialExperience[1]}
+            </p>
+          </div>
+          <HandCoins class="about-card__icon" />
+        </li>
+
+        <li class="about-card">
+          <div>
+            <h3 class="about-card__title">
+              {about.info.programmingLanguages}
+            </h3>
+            <p class="about-card__text">
+              {info.programmingLanguages.length} ({
+                info.programmingLanguages.map((l) => l.toLowerCase()).join(", ")
+              })
+            </p>
+          </div>
+          <Code class="about-card__icon" />
+        </li>
+
+        <li class="about-card">
+          <div>
+            <h3 class="about-card__title">{about.info.englishLevel}</h3>
+            <p class="about-card__text">{info.englishLevel}</p>
+          </div>
+          <Speech class="about-card__icon" />
+        </li>
+        <li class="about-card">
+          <div>
+            <h3 class="about-card__title">{about.info.location[0]}</h3>
+            <p class="about-card__text">{about.info.location[1]}</p>
+          </div>
+          <MapPin class="about-card__icon" />
+        </li>
+        <li class="about-card">
+          <div>
+            <h3 class="about-card__title">{about.info.email}</h3>
+            <a href={`mailto:${info.email}`} class="about-card__text"
+              >{info.email}</a
+            >
+          </div>
+          <Mail class="about-card__icon" />
+        </li>
+      </ul>
+    </div>
+  </Container>
+</section>
+<style>
+  @reference "../../styles/global.css";
+  .about-card {
+    @apply py-1 px-2  bg-muted outline-2 flex items-center text-accent grow lg:max-w-55 xl:max-w-none justify-between;
+    & > div {
+      @apply mr-3;
+    }
+  }
+  .about-card__title {
+    @apply text-sm text-accent mb-1;
+  }
+  .about-card__text {
+    @apply text-base text-foreground;
+  }
+  /* .about-card__icon {
+    @apply xl:size-auto;
+  } */
+</style>

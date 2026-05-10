@@ -5,7 +5,11 @@ const { lang, all } = Astro.locals;
 ---
 
 <div class="relative">
-  <button type="button" class="text-sm sm:text-base cursor-pointer relative after:absolute after:-inset-6 lg:after:-inset-4" data-lang-btn>{lang.toUpperCase()}</button>
+  <button
+    type="button"
+    class="text-sm sm:text-base cursor-pointer relative after:absolute after:-inset-6 lg:after:-inset-4"
+    data-lang-btn>{lang.toUpperCase()}</button
+  >
   <ul
     class="hidden absolute top-[135%] right-0 z-20 bg-popover/80 flex-col items-end justify-end px-4 py-2"
     data-lang-menu
@@ -25,7 +29,13 @@ const { lang, all } = Astro.locals;
     }
   </ul>
 </div>
+<style>
+  @reference "../../styles/global.css";
 
+  [data-lang-menu].scrolled {
+    @apply bg-accent;
+  }
+</style>
 <script is:inline>
   const btn = document.querySelector("[data-lang-btn]");
   const menu = document.querySelector("[data-lang-menu]");

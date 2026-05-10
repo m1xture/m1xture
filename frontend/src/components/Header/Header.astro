@@ -7,14 +7,19 @@ const {
 const ids = ["#about", "#projects", "#contacts"];
 ---
 
-<header class="py-6 absolute top-0 right-0 left-0 bg-black/10 z-10">
+<header
+  class="py-6 fixed top-0 right-0 left-0 bg-sidebar/10 z-10 transition-colors duration-500"
+  data-header
+>
   <Container class="flex items-center justify-between lg:px-32">
     <nav>
       <ul class="flex gap-2 sm:gap-5 lg:gap-8">
         {
           header.nav.map((link: string, i: number) => (
             <li>
-              <a href={ids[i]} class="uppercase text-sm sm:text-base">{link}</a>
+              <a href={ids[i]} class="uppercase text-sm sm:text-base">
+                {link}
+              </a>
             </li>
           ))
         }
@@ -23,3 +28,25 @@ const ids = ["#about", "#projects", "#contacts"];
     <Translator />
   </Container>
 </header>
+<style>
+  @reference "../../styles/global.css";
+
+  header.scrolled {
+    @apply bg-sidebar outline-3;
+  }
+</style>
+<script is:inline>
+  window.addEventListener("scroll", () => {
+    const header = document.querySelector("[data-header]");
+    const translator = document.querySelector("[data-lang-menu]");
+    if (header) {
+      if (window.scrollY > 15) {
+        header.classList.add("scrolled");
+        translator.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+        translator.classList.remove("scrolled");
+      }
+    }
+  });
+</script>

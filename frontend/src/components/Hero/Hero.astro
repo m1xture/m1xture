@@ -9,10 +9,11 @@ const {
 } = Astro.locals;
 ---
 
-<section id="about" class="relative overflow-hidden py-44 lg:py-72">
+<section id="hero" class="relative overflow-hidden py-44 lg:py-72">
   <Image
     src={bgImg}
     alt="dark background"
+    fetchpriority="high"
     class="absolute inset-0 w-full h-full object-cover -z-10 scale-125 blur-sm"
   />
   <Container class="lg:px-32">

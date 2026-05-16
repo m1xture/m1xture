@@ -16,12 +16,11 @@ export default {
     title: "Про мене",
     description: [
       "Спочатку я вивчав фронтенд тенхнології, потім поступово Node.js та бекенд фреймворки на Javascript. Після цього захопився Java та зараз вдосконалюю свої навички у Spring",
-      "Я — m1xture, фулстек‑розробник із досвідом комерційної роботи. Працюю з Node.js, Java та сучасними фронтенд технологіями",
     ],
     info: {
       startedProgramming: ["Я програмую вже", "р.", "м."],
       programmingLanguages: "Мови Програмування",
-      commercialExperience: ["Комерціний досвід", "років"],
+      commercialExperience: ["Комерційний досвід", "років"],
       englishLevel: "Рівень Англійської",
       location: ["Живу в", "Україні - ЄС"],
       email: "Email",

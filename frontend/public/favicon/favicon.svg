@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1159)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(31.25,0,0,31.25,0,0)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" shape-rendering="crispEdges"><defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&amp;display=swap');
+    </style>
+  <clipPath id="SvgjsClipPath1159"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs><rect width="32" height="32" fill="#0a0a0a00"></rect><text x="19" y="25" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="24" fill="#1a4d1a" text-anchor="middle" dominant-baseline="auto">1</text><text x="17" y="23" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="24" fill="#39d439" text-anchor="middle" dominant-baseline="auto">1</text></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1160)"><rect width="1000" height="1000" fill="#0a0a0a"></rect><g transform="matrix(31.25,0,0,31.25,0,0)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" shape-rendering="crispEdges"><defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&amp;display=swap');
+    </style>
+  <clipPath id="SvgjsClipPath1160"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs><rect width="32" height="32" fill="#0a0a0a00"></rect><text x="19" y="25" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="24" fill="#1a4d1a" text-anchor="middle" dominant-baseline="auto">1</text><text x="17" y="23" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="24" fill="#39d439" text-anchor="middle" dominant-baseline="auto">1</text></svg></g></g></svg></g></svg>

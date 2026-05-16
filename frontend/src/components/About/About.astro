@@ -1,8 +1,8 @@
 ---
 import Container from "../shared/Container/Container.astro";
-import { Image } from "astro:assets";
+import { Image, Picture } from "astro:assets";
 import formatDate from "../../utils/formatDate";
-import rosesImg from "../../assets/about-img.jpg";
+import rosesImg from "../../assets/about-poster.webp";
 import { info } from "../../i18n/info";
 import { Mail, MapPin, Speech, Code, HandCoins, Clock } from "@lucide/astro";
 
@@ -25,12 +25,19 @@ if (months < 0) {
 <section id="about" class="bg-card py-16 sm:py-24">
   <Container class:list="flex justify-center items-center" }>
     <div class="mr-12 hidden md:block">
-      <Image
+      <Picture
+        src={rosesImg}
+        alt="poster with roses"
+        densities={[1, 2]}
+        loading="lazy"
+        class="md:max-w-xs xl:max-w-sm"
+      />
+      <!-- <Image
         src={rosesImg}
         alt="roses"
         loading="lazy"
         class="md:max-w-xs xl:max-w-sm"
-      />
+      /> -->
     </div>
     <div class="max-w-md">
       <h2 class="text-accent text-3xl xl:text-4xl mb-4">

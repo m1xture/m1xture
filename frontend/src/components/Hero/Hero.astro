@@ -1,7 +1,7 @@
 ---
 import Container from "../shared/Container/Container.astro";
-import bgImg from "../../assets/background.jpg";
-import { Image } from "astro:assets";
+import bgImg from "../../assets/hero-bg@1x.webp";
+import bgImg2x from "../../assets/hero-bg@2x.webp";
 import StackList from "../StackList/StackList.astro";
 
 const {
@@ -9,13 +9,11 @@ const {
 } = Astro.locals;
 ---
 
-<section id="hero" class="relative overflow-hidden py-44 lg:py-72">
-  <Image
-    src={bgImg}
-    alt="dark background"
-    fetchpriority="high"
-    class="absolute inset-0 w-full h-full object-cover -z-10 scale-125 blur-sm"
-  />
+<section
+  id="hero"
+  class="hero-bg relative overflow-hidden py-44 lg:py-72"
+  style={`--bg: url(${bgImg.src}); --bg2x: url(${bgImg2x.src})`}
+>
   <Container class="lg:px-32">
     <div class="max-w-lg">
       <h1 class="text-5xl font-extrabold mb-4">{hero.title}</h1>
@@ -24,3 +22,20 @@ const {
     </div>
   </Container>
 </section>
+<style is:inline>
+  .hero-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--bg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    scale: 125%;
+    z-index: -1;
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (min-resolution: 2dppx) {
+      background-image: var(--bg2x);
+    }
+  }
+</style>

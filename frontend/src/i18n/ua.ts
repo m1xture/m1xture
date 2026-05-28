@@ -6,7 +6,7 @@ export default {
     description: "",
   },
   header: {
-    nav: ["Про мене", "Проєкти", "Контакти"],
+    nav: ["Про мене", "Проєкти"],
   },
   hero: {
     title: "Вітаю! Я - m1xture",

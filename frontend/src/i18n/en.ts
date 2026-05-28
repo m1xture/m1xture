@@ -7,7 +7,7 @@ export default {
       "I'm m1xture, a full-stack developer with commercial experience. I work with Node.js, Java, and modern frontend technologies",
   },
   header: {
-    nav: ["About", "Projects", "Contacts"],
+    nav: ["About", "Projects"],
   },
   hero: {
     title: "Hi, I'm m1xture",

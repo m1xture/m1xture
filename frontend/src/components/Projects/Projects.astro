@@ -10,7 +10,7 @@ const {
 
 const combinedProjects: (Project & ProjectDetails)[] = projects
   .map((p) => {
-    const elem: ProjectDetails | undefined = projectsInfo.find(
+    const elem: ProjectDetails | undefined = projectsInfo.list.find(
       ({ id }: Project) => id === p.id,
     );
     if (!elem) return undefined;
@@ -21,7 +21,7 @@ const combinedProjects: (Project & ProjectDetails)[] = projects
 
 <section class="py-16 sm:py-24" id="projects">
   <Container>
-    <h2 class="text-4xl text-center mb-8">My projects</h2>
+    <h2 class="text-4xl text-center mb-8">{projectsInfo.title}</h2>
     <ul
       class="grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center gap-4 xl:max-w-6xl xl:mx-auto"
     >

@@ -9,7 +9,11 @@ const isProductionEnv = process.env.NETLIFY === "true";
 // https://astro.build/config
 export default defineConfig({
   output: "static",
-  adapter: isProductionEnv ? netlify() : undefined,
+  adapter: isProductionEnv
+    ? netlify({
+        middlewareMode: "edge",
+      })
+    : undefined,
   site: "https://m1xture.xyz",
 
   vite: {

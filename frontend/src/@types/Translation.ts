@@ -25,5 +25,8 @@ export interface Translation {
     description: string[];
     info: Record<keyof Info, string | string[]>;
   };
-  projects: Project[];
+  projects: {
+    title: string;
+    list: Project[];
+  };
 }

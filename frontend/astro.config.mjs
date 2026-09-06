@@ -4,14 +4,13 @@ import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import netlify from "@astrojs/netlify";
 
-
+// const isProductionEnv = process.env.NETLIFY === "true";
 
 // https://astro.build/config
 export default defineConfig({
   output: "static",
   adapter: netlify(),
   site: "https://m1xture.xyz",
-
   vite: {
     plugins: [tailwindcss()],
   },

@@ -13,8 +13,8 @@
 
   <div align="left" >
     <br><br>
-    <p>Started learning programming 3 years ago</p>
-    <p>Currently learning: <b>Java Basics</b> </p>
+    <p>Started learning programming 4 years ago</p>
+    <p>Currently learning: <b>Spring</b> </p>
     <p>Often listen to music while coding</p>
     <p>Feel free to contact me in discord, 
       even <br> if you are not front-end dev)</p>

@@ -9,11 +9,6 @@ import netlify from "@astrojs/netlify";
 // https://astro.build/config
 export default defineConfig({
   output: "static",
-  // adapter: isProductionEnv
-  //   ? netlify({
-  //       middlewareMode: "edge",
-  //     })
-  //   : undefined,
   adapter: netlify(),
   site: "https://m1xture.xyz",
   vite: {

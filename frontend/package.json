@@ -15,11 +15,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^7.0.8",
+    "@astrojs/netlify": "^8.2.5",
     "@astrojs/sitemap": "^3.7.2",
-    "@lucide/astro": "^1.9.0",
+    "@lucide/astro": "^1.41.0",
     "@tailwindcss/vite": "^4.3.0",
-    "astro": "^6.1.8",
+    "astro": "^7.3.1",
     "tailwindcss": "^4.2.4"
   }
 }

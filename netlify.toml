@@ -1,4 +1,4 @@
 [build]
-  base = "frontend"
+  base = ""
   command = "astro build"
   publish = "dist"

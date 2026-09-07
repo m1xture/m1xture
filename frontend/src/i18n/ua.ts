@@ -3,7 +3,8 @@ import type { Translation } from "../@types/Translation";
 export default {
   meta: {
     title: "m1xture: fullstack розробник",
-    description: "",
+    description:
+      "Я m1xture, full-stack розробник із комерційним досвідом. Я працюю з Node.js, Java та сучасними фронтенд-технологіями",
   },
   header: {
     nav: ["Про мене", "Проєкти"],
@@ -18,7 +19,7 @@ export default {
       "Спочатку я вивчав фронтенд тенхнології, потім поступово Node.js та бекенд фреймворки на Javascript. Після цього захопився Java та зараз вдосконалюю свої навички у Spring",
     ],
     info: {
-      startedProgramming: ["Я програмую вже", "р.", "м."],
+      startedProgramming: ["Я програмую з", "р.", "м."],
       programmingLanguages: "Мови Програмування",
       commercialExperience: ["Комерційний досвід", "років"],
       englishLevel: "Рівень Англійської",

@@ -21,27 +21,18 @@
     </div>
 </div>
     <br><br>
-<div align="left">
+<div >
   <br><br>
 
    <h3 align="left">My stack:</h3>
   <div align="left">
-    <img alt"html ico" src="https://img.shields.io/badge/HTML-e54d26?style=for-the-badge&logo=html5&labelColor=%231e191b">
-    <img alt="css 3 ico" src="https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css&logoColor=264de4&labelColor=%2318002f">
-    <img alt="sass ico" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&labelColor=%23222">
-    <img alt="bootstrap ico" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&labelColor=%23222">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=%23F05032&labelColor=%23222">
-    <img alt="js ico" src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&labelColor=%23222">
-      <img alt="typescript ico" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=%233178C6&labelColor=%23222">
-    <img alt="react icon" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=%2361DAFB&labelColor=%23222">
-    <img alt="Static Badge" src="https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=React%20Router&logoColor=%23CA4245&labelColor=%23222">
-    <img alt="redux icon" src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=%23764ABC&labelColor=%23222">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=%23eee&labelColor=%23222">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=%23007FFF&labelColor=%23222">
-    <img alt="expressjs icon" src="https://img.shields.io/badge/Express.js-555?style=for-the-badge&logo=express&logoColor=%23eee&labelColor=%23222">
-    <img alt="nestjs icon" src="https://img.shields.io/badge/Nest.js-E0234E?style=for-the-badge&logo=nestjs&logoColor=%23E0234E&labelColor=%23222" />
-    <img alt="Static Badge" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=%2347A248&labelColor=%23222">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord.js&logoColor=%235865F2&labelColor=%23222">
+      <img alt="Static Badge" src="https://img.shields.io/badge/typescript-red?style=for-the-badge&logo=typescript&logoColor=%233178C6&logoSize=auto&label=%20&labelColor=%23121212&color=2e2f30">
+      <img alt="Static Badge" src="https://img.shields.io/badge/react-red?style=for-the-badge&logo=react&logoColor=%2361DAFB&logoSize=auto&label=%20&labelColor=%23121212&color=2e2f30">
+      <img alt="Static Badge" src="https://img.shields.io/badge/express.js-red?style=for-the-badge&logo=express&logoColor=%23F9F9F9&logoSize=auto&label=%20&labelColor=%23121212&color=2e2f30">
+      <img alt="Static Badge" src="https://img.shields.io/badge/java-red?style=for-the-badge&logo=openjdk&logoColor=%23EEEEEE&logoSize=auto&label=%20&labelColor=%23121212&color=2e2f30">
+      <img alt="Static Badge" src="https://img.shields.io/badge/spring-red?style=for-the-badge&logo=spring&logoColor=%236DB33F&logoSize=auto&label=%20&labelColor=%23121212&color=2e2f30">
+      <img alt="Static Badge" src="https://img.shields.io/badge/linux-red?style=for-the-badge&logo=linux&logoColor=%23FCC624&logoSize=auto&label=%20&labelColor=%23121212&color=2e2f30">
+
   </div>
   </div>
 </div>

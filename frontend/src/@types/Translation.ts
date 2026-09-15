@@ -1,4 +1,4 @@
-import type { Info } from "../i18n/info";
+import type { Info } from "./Info";
 
 export interface Project {
   id: string;

@@ -1,6 +1,6 @@
 ---
 import Container from "../shared/Container/Container.astro";
-import { Image, Picture } from "astro:assets";
+import { Picture } from "astro:assets";
 import formatDate from "../../utils/formatDate";
 import rosesImg from "../../assets/about-poster.webp";
 import { info } from "../../i18n/info";
@@ -32,12 +32,6 @@ if (months < 0) {
         loading="lazy"
         class="md:max-w-xs xl:max-w-sm"
       />
-      <!-- <Image
-        src={rosesImg}
-        alt="roses"
-        loading="lazy"
-        class="md:max-w-xs xl:max-w-sm"
-      /> -->
     </div>
     <div class="max-w-md">
       <h2 class="text-accent text-3xl xl:text-4xl mb-4">
@@ -131,7 +125,5 @@ if (months < 0) {
   .about-card__text {
     @apply text-base text-foreground;
   }
-  /* .about-card__icon {
-    @apply xl:size-auto;
-  } */
+
 </style>

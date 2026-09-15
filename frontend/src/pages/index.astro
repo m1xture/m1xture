@@ -1,4 +1,5 @@
 ---
+//? Redirecting the user based on their browser’s language
 export const prerender = false;
 const acceptLanguage = Astro.request.headers.get("accept-language") ?? "";
 

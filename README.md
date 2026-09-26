@@ -1,13 +1,13 @@
 <center>
   
-  <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=FFFFFE&background=23294600&center=true&vCenter=true&repeat=false&random=false&width=435&lines=Hello%2C+I+am+m1xture;An+amateur+front-end+developer" alt="Typing SVG" /></a></h1>
+  <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oooh+Baby&size=32&duration=4300&pause=750&color=EDECF7&center=true&vCenter=true&repeat=false&width=435&lines=Hi!+I'm+m1xture+%3A%29;A+curious+fullstack+developer" alt="Typing SVG" /></a></h1>
   <div align="center">
   <a href="https://discordapp.com/users/1137391988417769583/" target="_blank">
-    <img src="https://lanyard.cnrad.dev/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=doing%20something%20...%20probably&waveColor=0A1024"  />
+    <img src="https://lanyard.cnrad.dev/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=trying%20to%20make%20friends%20with%20a%20penguin🐧&waveColor=0A1024"  />
   </a>
 </div>
 
-<br>
+<br> 
 
 <div align="center">
 

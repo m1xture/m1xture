@@ -9,7 +9,7 @@
       <p>Often listen to music while coding</p>
       <p>Feel free to contact me in discord</p>
     </div>
-    <img src="https://lanyard.cnrad.dev/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=trying%20to%20make%20friends%20with%20a%20penguin&waveColor=0A1024" width="410px" height="210px" />
+    <!-- <img src="https://lanyard.cnrad.dev/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=trying%20to%20make%20friends%20with%20a%20penguin&waveColor=0A1024" width="410px" height="210px" /> -->
 </div>
 
 <br>
@@ -27,7 +27,6 @@
 <!-- </div> -->
   <!-- <br><br> -->
 <div >
-  <br><br>
 
    <h3 align="left">My stack:</h3>
   <div align="left">
@@ -42,7 +41,7 @@
   </div>
 </div>
 
-<br><br><br>
+<br><br>
 
 <div align="center">
   <h2 align="center">Github stats</h2>

@@ -1,26 +1,31 @@
 <center>
   
   <p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Oooh+Baby&size=32&duration=4300&pause=1450&color=EDECF7&center=true&vCenter=true&repeat=false&width=435&lines=Hi!+I'm+m1xture+%3A%29;A+curious+fullstack+developer" alt="Typing SVG" /></a></p>
-  <div align="center">
-  <a href="https://discordapp.com/users/1137391988417769583/" target="_blank">
-    <img src="https://lanyard.cnrad.dev/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=trying%20to%20make%20friends%20with%20a%20penguin&waveColor=0A1024"  />
-  </a>
+  <div align="center" style="display: flex">
+    <div align="left" >
+    <!-- <br><br> -->
+      <p>Started learning programming 4 years ago</p>
+      <p>Currently learning: <b>Spring</b> </p>
+      <p>Often listen to music while coding</p>
+      <p>Feel free to contact me in discord</p>
+    </div>
+    <img src="https://lanyard.cnrad.dev/api/1137391988417769583?bg=1F2140&borderRadius=13px&gradient=e4eFfd&waveSpotifyColor=0F1130&idleMessage=trying%20to%20make%20friends%20with%20a%20penguin&waveColor=0A1024" width="410px" height="210px" />
 </div>
 
-<br> 
+<br>
 
-<div align="center">
+<!-- <div align="center"> -->
 
-  <div align="left" >
+  <!-- <div align="left" >
     <br><br>
     <p>Started learning programming 4 years ago</p>
     <p>Currently learning: <b>Spring</b> </p>
     <p>Often listen to music while coding</p>
     <p>Feel free to contact me in discord, 
       even <br> if you are not front-end dev)</p>
-    </div>
-</div>
-    <br><br>
+  </div> -->
+<!-- </div> -->
+  <!-- <br><br> -->
 <div >
   <br><br>
 
